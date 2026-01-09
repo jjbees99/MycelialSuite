@@ -9,6 +9,7 @@ shopping_bp = Blueprint(
     template_folder="templates"
 )
 
+print("test")
 
 @shopping_bp.route("/", methods=["GET"])
 def shopping_index():
